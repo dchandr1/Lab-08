@@ -19,4 +19,7 @@ public class CustomList {
     // added another commit
     // Will be implemented later using TDD (leave blank for now)
     // public boolean hasCity(City city) { ... }
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
 }
